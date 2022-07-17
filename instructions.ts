@@ -26,7 +26,7 @@ export default async function instructions(
 
 	// Setup environment
 	const env = new sink.files.EnvFile(projectRoot);
-	env.set('MERCURE_ENDPOINT', 'localhost:XXXX/.well-known/mercure');
+	env.set('MERCURE_ENDPOINT', 'http://localhost:XXXX/.well-known/mercure');
 	env.set(
 		'MERCURE_ADMIN_JWT',
 		'eyJhbGciOiJIUzI1NiJ9.eyJtZXJjdXJlIjp7InB1Ymxpc2giOlsiKiJdfX0.mx2ROlYlE1rp7udoDy-WCdnpLdPuKWzDxoBJXGMK4OE'

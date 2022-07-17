@@ -3,7 +3,7 @@ The package has been configured successfully. The mercure configuration stored i
 **Open the `env.ts` file and paste the following code inside the `Env.rules` object.**
 
 ```ts
-MERCURE_ENDPOINT = Env.schema.string(),
-MERCURE_ADMIN_JWT = Env.schema.string(),
-MERCURE_JWT_SECRET = Env.schema.string(),
+MERCURE_ENDPOINT: Env.schema.string(),
+MERCURE_ADMIN_JWT: Env.schema.string(),
+MERCURE_JWT_SECRET: Env.schema.string(),
 ```

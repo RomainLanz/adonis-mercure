@@ -23,7 +23,11 @@ declare module '@ioc:Setten/Mercure' {
 	}
 
 	interface UpdateContract {
-		send(topics: string | string[], data: Record<string, string>, isPrivate: boolean): Promise<any>;
+		send(
+			topics: string | string[],
+			data?: Record<string, string>,
+			isPrivate?: boolean
+		): Promise<any>;
 	}
 
 	export const Token: TokenContract;
