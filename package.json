@@ -1,6 +1,6 @@
 {
   "name": "@setten/mercure",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mercure Client for AdonisJS",
   "homepage": "https://github.com/setten-io/adonis-mercure#readme",
   "license": "MIT",
